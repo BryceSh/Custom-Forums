@@ -1,0 +1,199 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+
+.category {
+    background-color: rgb(20, 115, 193);
+    color: white;
+    border-radius: 7px 7px 0 0;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+
+.topic img {
+    width: 50px;
+    margin-left: 10px;
+}
+
+.marker {
+    background-color: rgba(0, 248, 252, 0.718);
+}
+
+.comment img{
+    width: 35px;
+    border-radius: 50%; 
+    margin-right: 5px;
+}
+
+.profile-left {
+    display:inline-block;
+    position:relative;
+}
+
+.profile-left img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+
+.profile-left .edit-avatar {
+    color: white;
+    background-color: #3B71CA;
+    padding: 10px;
+    border-radius: 50%;
+    position: absolute;
+    top: 60%;
+    right: 37%;
+    font-size: 12px;
+}
+
+.thread-chip {
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 16px;
+    font-size: 12px;
+    margin-right: 6px;
+}
+
+.chip-primary {
+    background-color: #3B71CA;
+    color: white;
+}
+.chip-success {
+    background-color: #14A44D;
+    color: white;
+}
+.chip-danger {
+    background-color: #DC4C64;
+    color: white;
+}
+.chip-info {
+    background-color: #54B4D3;
+    color: white;
+}
+.chip-warning {
+    background-color: #E4A11B;
+    color: white;
+}
+.chip-secondary {
+    background-color: #9FA6B2;
+    color: white;
+}
+.chip-purple {
+    background-color: #bb3eed;
+    color: white;
+}
+
+.thread-info img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+
+.top-navi {
+    color: white;
+}
+
+.top-navi-blue {
+    color: #3B71CA;
+}
+
+.top-navi a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.top-navi-blue a{
+    color: #3B71CA;
+    text-decoration: none;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+#us-toast {
+
+position: fixed;
+z-index: 2147483646 !important;
+display: block;
+padding: 10px 20px;
+top: 10px;
+right: 10px;
+border-radius: 3px;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.us-toast-right {
+float: right;
+padding-left: 25px;
+}
+
+.us-toast-content {
+border-top: 1px solid rgba(0,0,0, 0.25);
+margin-top: 5px;
+padding-top: 5px;
+}
+
+.us-info {
+background-color: #00a7ff;
+color: white;
+}
+
+.us-success {
+background-color: #00c94d;
+color: white;
+}
+
+.us-error {
+background-color: #e51031;
+color: white;
+}
+
+.us-warn {
+background-color: #db9f17;
+color: white;
+}
+
+.admin-category {
+    background-color: #00a7ff;
+    color: white;
+    padding: 12px 0;
+    margin: 6px 0;
+    border-collapse: separate; 
+    border-spacing: 5em;
+}
+
+/* .admin-category td {
+    padding: 5px 0;
+} */
+
+.admin-topic {
+    border: 1px solid #eee;
+    border-top: none;
+}
+
+.footer {
+    position: relative;
+    margin-top: 25px;
+    /* negative value of footer height */
+    clear: both;
+}
+
+.reply-top img {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.user-profile img{
+    width: 60px;
+    border-radius: 50%;
+}
